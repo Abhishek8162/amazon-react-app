@@ -1,0 +1,140 @@
+
+html { 
+  scroll-behavior: smooth;
+ }
+
+ .vl {
+   border-left: 2px solid rgba(146, 146, 146, 0.541);
+   height: 2000px;
+   margin:10px 0px;
+ }
+
+.buynow
+{
+ display:flex;
+ flex-direction: column;
+ margin: 0px 0px;
+ padding: 20px 100px;
+ background-color: rgb(255, 255, 255)!important;
+}
+
+
+
+
+
+
+
+/* ***********************buynow-content*********************** */
+
+.buynow-content
+{display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+
+
+
+
+/* ************************Addresss FORMS************************ */
+.addressform h5
+{
+    margin: 30px 0px 5px 0px;
+}
+
+.addressform input[type="text"]
+{
+    width: 550px;
+    height: 25px;
+}
+
+.addressform input[type="submit"]
+{
+    width: 150px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: rgb(255, 182, 45);
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border: rgb(255, 136, 0) solid 1px;
+
+}
+
+
+
+
+/* ************************pickup FORMS************************ */
+
+.pickup
+{
+    padding: 0px 61px;
+}
+
+.pickup h5
+{
+    margin: 30px 0px 5px 0px;
+}
+
+.pickup input[type="text"]
+{
+    width: 150px;
+    height: 25px;
+}
+
+.pickup input[type="submit"]
+{
+    width: 120px;
+    height: 28px;
+    border-radius: 9px;
+    background-color: rgb(255, 182, 45);
+    margin: 20px 0px;
+    padding: 6px 0px;
+    border: rgb(255, 136, 0) solid 1px;
+
+}
+
+
+.pickup form div
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.pickup form h5
+{
+    margin:0px;
+    padding: 10px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+/* ************************Placed************************ */
+
+.placed
+{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 657px;
+    font-size: xx-large;
+    color: orange;
+}
+
+
+.placed h5,.placed h3
+{
+    margin: 10px;
+}

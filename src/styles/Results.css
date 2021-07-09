@@ -1,0 +1,84 @@
+body{
+
+    background-color: rgb(255, 255, 255)!important;
+    
+   }
+   html { 
+     scroll-behavior: smooth;
+    }
+
+    .vl {
+      border-left: 2px solid rgba(146, 146, 146, 0.541);
+      height: 2000px;
+      margin:10px 0px;
+    }
+
+   
+
+/* ************************************RESULTS-VIEW********************** */
+.results_div
+{
+  display: flex;
+  flex-direction:row; 
+  background: white;
+}
+
+
+
+
+
+
+  /* ************************************ARTICLE********************** */ 
+   
+  article{
+
+    padding:40px ;
+    
+  } 
+.article-items
+{
+  display: flex;
+    flex-direction: row;
+   
+}
+
+.article-items img
+{
+  padding: 20px 30px 20px 0px;
+
+}
+
+.article-desc a
+{
+  color: #000!important;
+}
+
+
+
+  /* ************************************FILTER********************** */
+  
+  .filter
+  {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    line-height: 0px;
+    
+    width: 320px;
+
+  }
+   
+   
+.bottom-buttons
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  background: white;
+}
+
+  
+.bottom-buttons button,.bottom-buttons span
+{padding:7px 12px;
+  margin: 50px 5px;
+}

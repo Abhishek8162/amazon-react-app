@@ -1,0 +1,163 @@
+
+   body {
+       background-color: rgb(212, 207, 207)!important;
+   }
+   
+   
+   html { 
+     scroll-behavior: smooth;
+    }
+
+    .vl {
+      border-left: 2px solid rgba(146, 146, 146, 0.541);
+      height: 2000px;
+      margin:10px 0px;
+    }
+
+.addtocart
+{
+    display:flex;
+    flex-direction: row;
+    margin: 15px 0px;
+}
+
+
+
+
+/* ************************TOPTITLE************************ */
+
+
+.toptitle {
+   padding:0px; 
+}
+
+.toptitle h5,.toptitle p {
+    margin:5px; 
+    padding: 5px 20px 0px;
+ }
+
+ .toptitle p
+  {
+      font-size:15px;
+ }
+
+.toptitle span
+{
+    color: rgb(197, 8, 8);
+}
+
+
+
+/* ************************TOPDescription************************ */
+
+
+
+
+.shoppingcart
+{
+    background-color: rgb(255, 251, 251);
+    padding:20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width:70%;
+}
+
+.shoppingcart hr
+{
+    width: 100%;
+    margin: 0px 0px 25px 0px;
+    color: rgb(199, 198, 198);
+}
+
+.shoppingcart p
+{  
+    margin-left: 730px;
+}
+
+.shoppingcart h2,.shoppingcart h4
+{
+    margin: 5px;
+
+}
+
+
+
+
+/* ************************ITEMS*********************** */
+
+.addtocart-items
+{
+    width: 250px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px 10px;
+}
+
+.addtocart-image 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.addtocart-desc
+{
+display:flex;
+flex-direction:column;
+
+}
+
+.addtocart-desc h2
+{
+    color: black;
+    font-size: 20px;
+}
+
+.addtocart-desc p
+{
+    color: black;
+    margin-left: 0px;
+    margin: 7px 0px;
+
+}
+
+.addtocart-desc h5
+{
+    color: rgb(2, 121, 233);
+    
+}
+
+
+
+/* ************************SidePricing************************ */
+
+.sidepricing-img
+{
+    padding: 0px!important;
+    width: 300px!important;
+}
+
+
+.sidepricing-desc
+{
+    background-color: white;
+    width: 256px;
+    margin: 25px 0px;
+    padding: 21px 22px;
+   
+}
+
+.sidepricing-desc button
+{
+    border-radius: 20px;
+    height: 35px;
+    margin: 5px;
+    width: 250px;
+    border: none;
+}
+
+
+
+
+

@@ -1,0 +1,107 @@
+body{
+
+    background-color: rgb(255, 255, 255)!important;
+    
+   }
+   html { 
+     scroll-behavior: smooth;
+    }
+
+    .vl {
+      border-left: 2px solid rgba(146, 146, 146, 0.541);
+      height: 2000px;
+      margin:10px 0px;
+    }
+
+
+/* ************************IMAGE MAIN************************ */
+
+
+
+
+/* ************************DESCRIPTION************************ */
+
+
+.top
+{
+display: flex;
+flex-direction:row;
+background: white;
+}
+
+.description-img 
+{
+padding:30px;
+width: 600px;
+
+}
+.description-img  img
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+
+    max-height:500px;
+    max-width:500px;
+    height:auto;
+    width:auto;
+
+
+}
+
+
+
+
+.description-top 
+{
+padding:30px;
+}
+
+.buynow
+{  
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc6c6;
+    height: fit-content;
+    margin: 70px 8px;
+}
+
+.buynow button
+{
+    border-radius: 40px;
+    height: 35px;
+    margin: 5px;
+    width: 200px;
+    border: none;
+}
+
+
+.quantity
+{
+    width: 35px;
+    height: 30px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+.btn1
+{
+    background-color:rgb(233, 229, 33);
+}
+.btn1:hover
+{
+    background-color:rgb(255, 251, 2);
+}
+
+
+.btn2
+{
+    background-color:rgb(226, 142, 32);
+}
+
+.btn2:hover
+{
+    background-color:rgba(255, 103, 2, 0.986);
+}

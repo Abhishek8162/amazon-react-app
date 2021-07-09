@@ -16,7 +16,7 @@ return(
     <>
     <div className="MenuItem">
 
-    <img className="MenuItems" src={menus[0]} alt="" />
+    <img className="MenuItems" src={menus[1]} alt="" />
 {/* 
     {menus.map(menu => ( 
    document.getElementsByClassName("MenuItems").src=menu,

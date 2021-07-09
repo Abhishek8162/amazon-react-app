@@ -3,7 +3,15 @@ body{
  background-color: rgb(202, 201, 201);
  
 }
+html { 
+  scroll-behavior: smooth;
+ }
 
+
+a{
+  text-decoration: none;
+  color:black;
+}
 
 
 
@@ -25,9 +33,15 @@ body{
   flex-direction:row;
 }
 .Header img {
-  width:10%;
+  width:75%;
 
 }
+
+.Linklogo {
+  margin: 0px;
+  width: 165px;
+}
+
 
 .Header h4
 {
@@ -123,7 +137,7 @@ width: 100%;
 
 /* 
 ************************************************************
-                 ItemList 1  starts here
+                 ItemList 1  starts here      means slot 1 
 ************************************************************ */
 .ItemList1
 {
@@ -131,21 +145,162 @@ width: 100%;
   flex-direction:row;
   justify-content: center;
   padding:0px;
+  
   position: absolute;
   top:350px;
   background-color: rgb(202, 201, 201);
 
 }
 
-.ItemList1 div
+/* Card div of the 1 slot */
+
+.ItemList1>div
 {
-  padding: 10px;
+  padding: 20px;
   margin: 2px 0px 0px 29px;
   background-color: rgb(255, 255, 255);
-  width: 282px;
-  height: 300px;
+  width: 262px;
+  height: 370px;
 }
 
+.ItemList1 h2
+{
+  text-align: center;
+  margin: 0;
+}
+
+.ItemList1 h5
+{
+ color:black; 
+  margin: 0;
+}
+
+
+
+
+/* Actual content in the card */
+
+.ItemList1>div  content
+{padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+}
+  
+
+.ItemList1>div  content div
+{padding: 2px 5px;
+  margin: 0px 10px;
+  width: 32%;
+  background-color: rgb(255, 255, 255);
+}
+
+/*  img in the div in the Content */
+.ItemList1>div  content img                  
+{
+  position: relative;
+  width: 100%;
+  left: 11px;
+}
+
+.ItemList1>div  content p                  
+{position: relative;
+  /* width: 100%; */
+  left: 11px;
+  top: -8px;
+  margin: 0px;
+ 
+}
+
+ p a{ color:black;}
+
+
+/**************************************************************** */
+
+
+/* 2nd Card div of the 1 slot */
+.link-seemore h5
+{
+  color:rgb(86, 165, 255);
+  position: relative;
+  top: 20px;
+
+}
+
+/*  img in the div in the Content of 2ND CARD */
+.il12 content img                  
+{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  left: -50px;
+}
+
+/**************************************************************** */
+
+/* 3rd Card div of the 1 slot */
+.il13 h2
+{
+  margin:0px;
+  font-size: 22px;
+}
+
+.link-seemore2 h5
+{
+  color:rgb(86, 165, 255);
+  position: relative;
+  top: -5px;
+
+}
+
+.il13 content
+{
+  margin: 30px 0px !important ;
+  color: red;
+}
+
+/**************************************************************** */
+.il14 
+{padding: 0px !important;
+  margin: 2px 0px 0px 29px !important;
+  background-color:rgb(202, 201, 201) !important;
+  width: 325px !important;
+}
+
+
+
+.il14 div
+{background-color: white;
+  margin: -2px 0px 24px;
+  padding: 23px 17px;
+  width: 260px;
+  font-size: 14px;
+}
+
+.il14 h2
+{
+  padding: 0px !important;
+  margin: 4px 0px 0px 0px !important;
+}
+
+.il14 div img
+{
+  width: 46%;
+  position: relative;
+  left: 65px !important;
+
+}
+
+
+
+.spacehome
+{
+  width: 800px;
+  height: 150px;
+
+}
 
 
 /* 
@@ -153,15 +308,89 @@ width: 100%;
                   Footer starts here
 ************************************************************ */
 
+.move {
+
+  /* position: relative;
+  top: 122px; */
+  height: 35px !important;
+  padding: 20px 0px;
+  margin-top: 30px;
 
 
-.Footer {
-  background-color: black;
+}
+
+.move :hover {
+background-color:#385179;
+
+}
+.move h4 
+{
+  background-color:  #2d3f5c;
+  padding: 15px;
+  margin: 0px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+.Footer-basic{
+  background-color: #182335;
   color: white;
   text-align: center;
   padding:10px;
-  position: absolute;
-  bottom: -222px;
-  margin: 0px;
-  width: 98.5%;
+  
+  margin: -4px 0px;
+  width: 100%;
 }
+
+
+.Footer-basic 
+{display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+}
+
+.Footer-basic div
+{ display: flex;
+  flex-direction: column;
+  margin: 0px;
+  text-align: left;
+}
+
+
+.Footer-basic div h5
+{
+  padding: 6px;
+    margin: 0px;
+}
+
+
+.amazon-international
+{background-color: #182335;
+  color: white;
+  text-align: center;
+  margin: -4px 0px;
+  width: 100%;
+}
+
+
+.amazon-international 
+{display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+  color: #182335;
+}
+
+.amazon-international div
+{ display: flex;
+  flex-direction: column;
+  margin: 0px;
+  text-align: left;
+  
+}
+
+
